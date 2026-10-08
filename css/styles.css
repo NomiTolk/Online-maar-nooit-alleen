@@ -1,0 +1,132 @@
+.startpagina{
+    background-image: url(/Images/Startpage.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 30vh;
+    box-sizing: border-box;
+}
+.titel_start{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #fed170;
+   font-family: "cc-pixel-arcade-cartridge", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0
+}
+.titel1{
+    background-color: #fd5a46;
+    padding:0.4em;
+    border-radius: 20px;
+    margin: 0;
+    gap: 0;
+    margin-top: 0.5em;
+    margin-bottom: -0.6em;
+}
+.press_to_start{
+   justify-content: center;
+   align-items: flex-end;
+}
+li{
+    list-style: none;
+}
+body>ul a{
+    color: #fff;
+    background-color: transparent;
+    font-family: "cc-pixel-arcade-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em; 
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+a:hover{
+    color: #fd5a46;
+    transform: scale(1.5);
+}
+
+body{
+    background-image:url(/Images/OnlineAchtergrond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.titel2{
+    color: #fed170;
+    font-family: "cc-pixel-arcade-cartridge", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0;
+    background-color: #fd5a46;
+    padding: 0.4em;
+    border-radius: 20px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #fff;
+    font-family: "cc-pixel-arcade-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-color: #fed170;
+    padding: 0.3em;
+    border-radius: 20px;
+}
+h2{
+    font-family: "trilby", serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 2.5em;
+}
+p{
+    font-family: "trilby", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 2em;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fed170;
+    border-radius: 2em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+main>ul a{
+    background-color: transparent;
+    font-family: "trilby", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 2em;
+}
+.bronnen{
+    flex-direction: column;
+    background-color: #fed170;
+    border-radius: 2em;
+    margin: 5em;
+    padding: 2em;
+}
